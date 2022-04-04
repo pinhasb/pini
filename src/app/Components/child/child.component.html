@@ -1,0 +1,7 @@
+<h1>{{car.id}}</h1>
+<h1>{{car.name}}</h1>
+
+<label for="item-input">Add new car:</label>
+<input type="text" id="item-input" #newcar>
+<button type="button" (click)="addNewCar(newcar.value)">Add to parent's list</button>
+<button type="button" (click)="nevigate()" > to Nevigate</button>

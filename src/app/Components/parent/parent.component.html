@@ -1,0 +1,5 @@
+<div class="container">
+    <div class="row">
+        <app-child class="col-3" *ngFor="let car of cars" [car]="car" (out)="addCar($event)"></app-child>
+    </div>
+</div>
